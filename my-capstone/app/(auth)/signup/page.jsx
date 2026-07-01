@@ -44,7 +44,7 @@ export default function SignupPage(){
         
         //if (role === "barber") {
             //router.push(`/barberProfile/${createdBarber._id}`);
-            //router.push("/barberWokingHours");
+            //router.push("/barberWorkingHours");
         //} else {
             router.push("/login");
         // }
