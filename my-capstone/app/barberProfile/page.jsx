@@ -47,7 +47,7 @@ export default function BarberWorkingHours() {
 
     const submitData = async () => {
         try {
-            const response = await axios.post("/api/barberWokingHours", {
+            const response = await axios.post("/api/barberWorkingHours", {
                 days: selectDays,
                 ...workingHours
             });
