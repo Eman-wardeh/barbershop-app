@@ -72,8 +72,8 @@ export default function AdminSidebar() {
                 </li>
 
                 <li >
-                    <Link href="/admin/users">
-                        👤 Users
+                    <Link href="/admin/services">
+                        👤 Services
                     </Link>
                 </li>
                 <li >
