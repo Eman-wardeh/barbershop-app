@@ -6,7 +6,7 @@ export function middleware(req) {
 
     const path = req.nextUrl.pathname;  // <= how to get the current path
     const isPublicPath = 
-        path === '/log_In' || path === '/sign_Up' || path === '/verifyemail';
+        path === '/login' || path === '/signup' || path === '/verifyemail';
 
     const token = req.cookies.get('jwt')?.value || '';
     // If user is logged in and tries to access login/signup
@@ -16,7 +16,7 @@ export function middleware(req) {
 
     // If user is NOT logged in and tries to access protected pages
     if(!isPublicPath && !token){
-        return NextResponse.redirect(new URL('/log_In', req.nextUrl))
+        return NextResponse.redirect(new URL('/login', req.nextUrl))
     }
 }
 //see matching paths below to learn more
