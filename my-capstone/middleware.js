@@ -18,6 +18,7 @@ export function middleware(req) {
     if(!isPublicPath && !token){
         return NextResponse.redirect(new URL('/login', req.nextUrl))
     }
+    return NextResponse.next()
 }
 export const config = {
     matcher: [
