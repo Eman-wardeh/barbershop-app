@@ -6,7 +6,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   
 }
-.page-content{
+.page-contents{
   background-color: #2563eb;
   /* background-size: 500px; */
   background-size:cover;
@@ -16,6 +16,16 @@ body {
   margin-top: 90px;
   padding-top: 20px;
 }
+/* .page-content{
+  background-color: #2563eb;
+  /* background-size: 500px; */
+  /* background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 90px;
+  padding-top: 20px; */
+/* } */ 
 .flyer{
 
   display: flex;
