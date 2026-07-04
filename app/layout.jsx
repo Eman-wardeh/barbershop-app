@@ -2,8 +2,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "Iron Cuts | Modern Barbershop",
-  description: "Professional men's haircuts, beard trims, and modern styles.",
+  title: "THIS IS MY TEST TITLE",
+  description: "test",
 };
 export const viewport = {
   width: "device-width",
