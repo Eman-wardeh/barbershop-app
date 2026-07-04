@@ -2,8 +2,8 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata = {
-  title: "THIS IS MY TEST TITLE",
-  description: "test",
+  title: "Iron Cuts | Modern Barbershop",
+  description: "Professional men's haircuts, beard trims, and modern styles.",
 };
 export const viewport = {
   width: "device-width",
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer>
-        <p style={{color:"red"}}>© IRON CUTS. All Rights Reserved.</p>
+        <p>© IRON CUTS. All Rights Reserved.</p>
       </footer>
       </body>
       
