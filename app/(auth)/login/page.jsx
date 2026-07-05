@@ -43,7 +43,7 @@ export default function LoginPage() {
                 router.push(`/barber/${response.data.barberId}`);
 
             } else if(loggedInUser.role === "customer"){
-                router.push("/dashboard");
+                router.push("/customerDashboard");
             } else if(loggedInUser.role === "admin"){
                 router.push("/admin");
             }

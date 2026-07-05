@@ -21,10 +21,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Tech Stack
 Framework: Next.js
 Language: JavaScript
-Styling: Tailwind CSS / CSS Modules / Styled Components
-Database : Mongoose with MongoDB
-Frameworks : React
-Vercel (Deployment)
+Styling: Tailwind CSS
+Database: MongoDB with Mongoose
+Image Upload: Cloudinary
+Deployment: Vercel
 
 ## Features
 1. Client-side rendering (CSR) 
@@ -33,7 +33,11 @@ Vercel (Deployment)
 4. API routes using Next.js backend
 5. Modern UI components
 6. Fast performance with optimized builds
-7. Create, edit, delete tasks
+7. Book appointments
+8. Manage barbers and services
+9. User authentication
+10. Admin dashboard
+11. Role-based access control
 
 
 
@@ -50,7 +54,7 @@ Vercel (Deployment)
 
 ### Gallery Page
 ![Gallery Page](./public/screenshots/galleryPage.png)
-## 📦 Installation / Setup
+
 
 
 ## Installation/ Setup
@@ -86,6 +90,6 @@ DOMAIN=http://localhost:3000
 
 
 
-## This project is deployed on Vercel platform
+## This project is deployed on Vercel platform and this is the link : "https://barbershop-app-sooty.vercel.app/"
 
 

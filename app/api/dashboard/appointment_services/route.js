@@ -46,6 +46,11 @@ export async function GET(req) {
       (item) => item.appointment._id
     );
 
+    const pastApp = filteredAppointments.filter(
+      (item) => new Date(item.appointment.appointmentDate) < new Date()
+    );
+
+
     // Find reviews for those appointments
     const reviews = await Reviews.find({
       appointment: { $in: apps },
@@ -70,7 +75,8 @@ export async function GET(req) {
       {
         appointmentsWithReviewStatus: appointmentsWithReviewStatus,
         user,
-        appointmentsAndServices: filteredAppointments
+        appointmentsAndServices: filteredAppointments,
+        pastAppointments: pastApp
       },
       { status: 200 }
     );

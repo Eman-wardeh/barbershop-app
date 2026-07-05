@@ -40,7 +40,7 @@ export default function WriteReview(){
                 setReview(res.data.reviewData);
                 if(res.status === 201){
                     setTimeout(()=>{
-                        router.push('/dashboard')
+                        router.push('/customerDashboard')
                     }, 1500)
                 }
         } catch(err){

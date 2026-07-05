@@ -7,12 +7,9 @@ body {
   
 }
 .page-content{
-  /* background-image: url("/image/barber-shop10.png"); */
-  /* background-color: #2563eb; */
-  /* background-size: 500px; */
-   background-image:
-    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("/image/haircut.jpeg");
+  background:
+  linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+  url("/image/haircut.jpeg");
   background-size:cover;
   background-position: center;
   background-repeat: no-repeat;

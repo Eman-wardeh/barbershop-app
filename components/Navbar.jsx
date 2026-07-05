@@ -52,6 +52,12 @@ export default function Navbar() {
                         <Link href="/barber">Barber Dashboard</Link>
                     </li>
                  )}
+                 {(role === "customer")&&(
+                    <li>
+                        <Link href="/customerDashboard">Profile</Link>
+                    </li>
+                 )}
+
 
 
                 <li className="right">
