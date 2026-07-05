@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           {children}
         </main>
         <footer>
-        <p style={{color:"red"}}>© IRON CUTS. All Rights Reserved.</p>
+        <p>© IRON CUTS. All Rights Reserved.</p>
       </footer>
       </body>
       
