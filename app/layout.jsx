@@ -12,13 +12,13 @@ export const viewport = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" >
-      <body className={{color:"red"}}>
+      <body >
         <Navbar />
         <main className="page-content">
           {children}
         </main>
         <footer>
-        <p>© IRON CUTS. All Rights Reserved.</p>
+        <p className={{color:"red"}}>© IRON CUTS. All Rights Reserved.</p>
       </footer>
       </body>
       
