@@ -28,7 +28,7 @@ Deployment: Vercel
 
 ## Features
 1. Client-side rendering (CSR) 
-2. Authentication (if applicable)
+2. Authentication 
 3. Fully responsive design
 4. API routes using Next.js backend
 5. Modern UI components
@@ -90,6 +90,5 @@ DOMAIN=http://localhost:3000
 
 
 
-## This project is deployed on Vercel platform and this is the link : "https://barbershop-app-sooty.vercel.app/"
-
+## This project is deployed on Vercel platform and this is the link : "https://barbershop-2ra3mzjwh-httpswwwspringboardcom.vercel.app/"
 
